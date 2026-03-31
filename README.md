@@ -6,7 +6,7 @@ The project explores both **Independent PPO (IPPO)** and **Multi-Agent PPO (MAPP
 
 ### Demo: MAPPO (50 Iterations) vs. MIT Heuristic Bots
 
-![MAPPO vs Heuristic Match](link-to-your-gif-here.gif)
+![MAPPO vs Heuristic Match](MAPPO_vs_Perfect_advisory.gif)
 
 > **Note on Training Depth:** The visual above demonstrates our MAPPO agents (with Shaped Rewards) surviving the maximum 600 steps against the hardcoded, top-tier MIT Heuristic bots. It is important to note that 50 iterations (roughly 50 x 2,000 steps against random agents) is effectively the early learning phase for a reinforcement learning agent. While they have not yet mastered complex team maneuvers to capture the flag, they successfully learned to avoid boundaries (Out of Bounds penalties) and survive a full match without being captured by a vastly superior enemy.
 
